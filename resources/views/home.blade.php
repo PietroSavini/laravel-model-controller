@@ -1,8 +1,10 @@
 @extends('Layouts.app')
 
 @section('content')
+    
     <div class="container">
-        <div class="row row-cols-4">
+        <h1>Movies.db</h1>
+        <div class="py-3 row row-cols-4 g-3">
             @foreach ($movies as $movie)
                 <div class="col">
                     <div class="card">
